@@ -1,0 +1,21 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lijovijayan/links.git",
+  "author": "lijovijayan <lijovijayan00@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "predeploy": "npm run build",
+    "deploy": "npm run predeploy && gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "glob": "^10.4.1",
+    "html-minifier": "^4.0.0"
+  }
+}
