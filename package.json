@@ -2,6 +2,7 @@
   "name": "links",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://connect.lijovijayan.me",
   "repository": "https://github.com/lijovijayan/links.git",
   "author": "lijovijayan <lijovijayan00@gmail.com>",
   "license": "MIT",
